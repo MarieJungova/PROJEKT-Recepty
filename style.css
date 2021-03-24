@@ -53,7 +53,7 @@ p{
 }
 
 .salaty{
-	background-image: url(images/salat.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/salat.jpg);
 	background-size: cover;
 	background-position: center;
 	min-height: 200px;
@@ -80,7 +80,7 @@ p{
 }
 
 .svacina{
-	background-image: url(images/chlebicek.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/chlebicek.jpg);
 	background-size: cover;
 	background-position: center;
 	min-height: 90px;
@@ -92,7 +92,7 @@ p{
 }
 
 .mexicka{
-	background-image: url(images/tacos.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/tacos.jpg);
 	background-size: cover;
 	background-position: center;
 	min-height: 90px;
@@ -104,7 +104,7 @@ p{
 }
 
 .lusteniny{
-	background-image: url(images/cizrna.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/cizrna.jpg);
 	background-size: cover;
 	background-position: center;
 	min-height: 90px;
@@ -116,7 +116,7 @@ p{
 }
 
 .burgery{
-	background-image: url(images/burger.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/burger.jpg);
 	background-size: cover;
 	background-position: center;
 	min-height: 90px;
