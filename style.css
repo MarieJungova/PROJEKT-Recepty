@@ -33,3 +33,154 @@ Nastav je receptům jako obrázky na pozadí (tj. nepřidávej je jako <img> do 
 Na rozložení prvků NEPOUŽÍVEJ absolutní pozicování, ale pouze flexboxy.
 Flexboxy mohou být vnořené do sebe, klidně několikrát.
 */
+
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0;
+	color: white; 
+	text-shadow: 1px 1px 3px #535151;
+}
+
+.male h1{
+	font-size: 18px;
+	text-align: left;
+	color: white;
+	margin: 0;
+	text-shadow: 1px 1px 3px #535151;
+}
+
+.salaty{
+	background-image: url(images/salat.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 200px;
+	border: 1px solid white;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.salaty h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	font-weight: 800;
+	color: white;
+	text-align: left;
+	margin: 0;
+	text-shadow: 1px 1px 3px #535151;
+}
+
+.text{
+	display: flex;
+	justify-content: space-between;
+}
+
+.svacina{
+	background-image: url(images/chlebicek.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 90px;
+	border: 1px solid white;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.mexicka{
+	background-image: url(images/tacos.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 90px;
+	border: 1px solid white;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.lusteniny{
+	background-image: url(images/cizrna.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 90px;
+	border: 1px solid white;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.burgery{
+	background-image: url(images/burger.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 90px;
+	border: 1px solid white;
+	padding: 10px;	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+@media screen and (min-width: 480px) and (max-width: 859px){
+	
+	.salaty h1{
+		font-size: 36px;
+	}
+
+	.male h1{
+		font-size: 22px;
+	}
+
+	.salaty{
+		padding: 20px;
+		min-height: 250px;
+	}
+
+	.svacina, .mexicka, .lusteniny, .burgery {
+		padding: 20px;
+		min-height: 150px;
+		flex-basis: 50%;
+	}
+
+	.male{
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (min-width: 860px){
+	.salaty h1{
+		font-size: 48px;
+	}
+
+	.male h1{
+		font-size: 28px;
+	}
+
+	.salaty{
+		padding: 20px;
+		min-height: 400px;
+	}
+
+	.svacina, .mexicka, .lusteniny, .burgery {
+		padding: 20px;
+		min-height: 200px;
+		flex-basis: 50%;
+	}
+
+	.recepty{
+		display: flex;
+	}
+
+	.male{
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 100%;
+	}
+}
