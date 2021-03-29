@@ -45,6 +45,8 @@ p{
 }
 
 .male h1{
+	font-family: 'Raleway';
+	font-weight: 800;
 	font-size: 18px;
 	text-align: left;
 	color: white;
